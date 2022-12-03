@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Me gusta</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav class="text-nav">
+        <h1>Network</h1>
+        
+    </nav>
+    <nav class="text-nav2">
+        <h2>Your Feed</h2>  
+    </nav>
+    
+    <!-- Contenedor principal -->
+    <main>
+        <!-- Bloque izquierdo arriba-->
+        <div class="izquierda">
+            <div class="bloque-izquierda-1">
+                <div class="area-texto-izquierda-1">
+                    <div class="icon">
+                        <img src="./img/icon-user2.png" alt="avatar">
+                    </div>
+                    <a href="#">Add an avatar</a>
+                    <h2>James Doe</h2>
+                </div>
+                
+            </div>
+        </div>
+        <!-- Bloque derecha -->
+        <div class="derecha">
+            <!-- Bloque derecha arriba-->
+            <div class="bloque-derecha-arriba">
+                <div class="area-texto-1">
+                    <p>Neil M</p>
+                    <p><span id ="count">9</span>Likes(s)</p>
+                    <div class="button-like-1">
+                        <button class="like"onclick ="like('#count')">Like</button>
+                    </div>
+                    
+                </div>
+                <div class="area-texto-2">
+                    <p>I just set up this new discord bot, let me <br>   
+                        know what you all think <a href="#">link</a>
+                    </p>
+                </div>
+            </div>
+            <!-- Bloque derecha medio-->
+            <div class="bloque-derecha-medio">
+                <div class="area-texto-3">
+                    <p>Nichole K</p>
+                    <p><span id ="count2">12</span>Likes(s)</p>
+                    <div class="button-like-2">
+                        <button class="like"onclick ="like('#count2')">Like</button>
+                    </div>
+                    
+                </div>
+                <div class="area-texto-4">
+                    <p>Just finished my <a href="#">nex comic</a>, check it out</p>
+                </div>
+            </div>
+            <!-- Bloque derecha abajo-->
+            <div class="bloque-derecha-abajo">
+                <div class="area-texto-5">
+                    <p>Jim R</p>
+                    <p><span id ="count3">9</span>Likes(s)</p>
+                    <div class="button-like-3">
+                        <button class="like"onclick ="like('#count3')">Like</button>
+                    </div>
+                    
+                </div>
+                <div class="area-texto-6">
+                    <p>I can´t stop listening to the <a href="#">new albun</a> <br> 
+                        Who else is liking it?</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./js/script.js"></script>  
+</body>
+</html>

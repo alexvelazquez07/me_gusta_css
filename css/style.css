@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
+}
+
+/* Barra de navegación */
+.text-nav{
+ 
+    flex-direction: row;
+    padding: 10px 100px;
+    background-color: black;
+    color: white;
+    margin-bottom: 10px;
+    font-size: 18px;
+    align-items: center;
+    margin-left: 300px;
+    margin-right: 300px;
+
+}
+.text-nav2{
+    padding: 10px 399px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    align-items: center;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin: 0 300px;
+    gap: 50px;  
+}
+
+/* Header de todos los contenedores*/
+.header{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(35, 35, 35);
+    align-items: center;
+}
+
+.izquierda{
+    text-align: center;
+}
+.derecha{
+    text-align: center;
+}
+
+
+.bloque-izquierda-1{    
+
+    border: 4px solid grey;
+    margin-bottom: 30px;
+    width: 180px;
+    height: 250px;
+}
+
+.bloque-derecha-arriba{    
+    border: 4px solid grey;
+    margin-bottom: 30px;
+    width: 690px;
+    height: 250px;
+    font-size: 25px;
+
+}
+.bloque-derecha-medio{    
+    border: 4px solid grey;
+    margin-bottom: 30px;
+    width: 690px;
+    height: 250px;
+    font-size: 25px;
+
+}
+
+.bloque-derecha-abajo{    
+    border: 4px solid grey;
+    margin-bottom: 30px;
+    width: 690px;
+    height: 250px;
+    font-size: 25px;
+
+}
+.area-texto-izquierda-1{
+    margin-top: 45px;
+}
+
+.area-texto-1{
+    display: inline-flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    word-spacing:10px;
+}
+.area-texto-3{
+    display: inline-flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    word-spacing:10px;
+}.area-texto-5{
+    display: inline-flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    word-spacing:10px;
+}
+
+
+img {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    object-fit: cover;
+}
+
+.button-like-1 button{    
+    background-color: rgb(250, 192, 0);
+    border: none;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0 9px 9px 2px #999;
+}
+
+.button-like-2 button{
+    background-color: rgb(250, 192, 0);
+    border: none;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0 9px 9px 2px #999;
+}
+
+.button-like-3 button{
+    background-color: rgb(250, 192, 0);
+    border: none;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0 9px 9px 2px #999;
+}
